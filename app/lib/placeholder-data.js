@@ -14,7 +14,7 @@ export const collectionsMetaData = [
   {
     title: "Pantolon",
     description: "Tarzınızı yansıtan şık ve rahat pantolon modelleri.",
-    openGraphImage: "/categories/pants.png",
+    openGraphImage: "/categories/ABS_BLACK.png",
     link: "pantolon",
   },
   {
