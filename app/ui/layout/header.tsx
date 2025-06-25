@@ -27,6 +27,9 @@ export default function Header() {
         <Link href="/">
           <Image alt="logo" src="/logoipsum.svg" width={200} height={250} />
         </Link>
+          <Link href="/contacto" className="text-sm font-medium hover:underline ml-4">
+          Contacto
+        </Link>
       </div>
       <div className="hidden sm:block sm:w-1/2">
         <Search />

@@ -107,3 +107,19 @@ WHERE category ILIKE ${"%" + param + "%"} OR name ILIKE ${"%" + param + "%"};
     throw new Error("Failed to fetch products by search params");
   }
 }
+
+import { supabase } from './supabase';
+
+export async function getProductsByCategory(category: string) {
+  const { data, error } = await supabase
+    .from('products')
+    .select('*')
+    .ilike('category', category);
+
+  if (error) {
+    console.error("Error al obtener productos:", error);
+    return [];
+  }
+
+  return data;
+}

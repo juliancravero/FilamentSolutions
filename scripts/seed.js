@@ -4,7 +4,7 @@ const categories = [
   {
     categoryId: "3958dc9e-712f-4377-85e9-fec4b6a6442a",
     categoryName: "Sweatshirt",
-    categoryImage: "/categories/sweat-category.png",
+    categoryImage: "/",
     categoryLink: "/sweatshirt",
   },
   {
@@ -15,7 +15,7 @@ const categories = [
   },
   {
     categoryId: "3958dc9e-737f-4377-85e9-fec4b6a6442a",
-    categoryName: "Pantolon",
+    categoryName: "PantoASASSAon",
     categoryImage: "/categories/pants.png",
     categoryLink: "/pantolon",
   },
