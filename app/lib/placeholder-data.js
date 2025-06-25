@@ -1,21 +1,15 @@
 export const collectionsMetaData = [
   {
-    title: "Sweatshirt",
+    title: "pla",
     description: "Şıklığı ve rahatlığı bir araya getiren sweatshirt modelleri.",
-    openGraphImage: "/categories/sweat-category.png",
-    link: "sweatshirt",
+    openGraphImage: "/categories/pla-category.png",
+    link: "pla",
   },
   {
     title: "Ayakkabı",
     description: "Modanın vazgeçilmezi ayakkabılarla tarzınızı konuşturun.",
     openGraphImage: "/categories/shoes-category.png",
     link: "ayakkabi",
-  },
-  {
-    title: "Pantolon",
-    description: "Tarzınızı yansıtan şık ve rahat pantolon modelleri.",
-    openGraphImage: "/categories/ABS_BLACK.png",
-    link: "pantolon",
   },
   {
     title: "Dış Giyim",
@@ -32,7 +26,7 @@ export const collectionsMetaData = [
   },
   {
     title: "Elektronik",
-    description: "Teknolojinin en son trendleri elektronik kategorisinde.",
+    description: "Teknolojinin en son trendleri elektronik kategorisinde.",A
     openGraphImage: "/categories/electronics.png",
     link: "elektronik",
   },
