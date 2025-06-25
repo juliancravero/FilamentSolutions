@@ -1,4 +1,4 @@
-/* const { db } = require("@vercel/postgres");
+
 
 const categories = [
   {
@@ -17,7 +17,7 @@ const categories = [
     categoryId: "3958dc9e-737f-4377-85e9-fec4b6a6442a",
     categoryName: "PantoASASSAon",
     categoryImage: "/categories/pants.png",
-    categoryLink: "/pantolon",
+    categoryLink: "/pantolonsonson",
   },
   {
     categoryId: "50ca3e18-62cd-11ee-8c99-0242ac120002",
@@ -401,4 +401,4 @@ main().catch((err) => {
     err
   );
 });
- */
+ 
